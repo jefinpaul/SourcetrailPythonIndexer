@@ -688,7 +688,6 @@ def getNext(node):
 	return None
 
 
-
 def getNextLeaf(node):
 	nextNode = getNext(node)
 	while nextNode is not None and hasattr(nextNode, 'children'):
